@@ -1,7 +1,7 @@
 ---
 name: dependency-scanning
 description: Scan repository dependencies for known vulnerabilities using the GitHub MCP Server's Dependabot toolset and the GitHub Advisory Database. Use when asked to check dependency security, audit lockfiles, or verify packages before merging.
-allowed-tools: Bash(git:*) Glob Grep Read
+allowed-tools: Bash Glob Grep Read
 ---
 
 # Dependency Vulnerability Scanning Skill
@@ -374,7 +374,7 @@ For automated remediation, only block on **Critical** and **High** severity. Med
 
 ### Prerequisites & Inputs
 
-1. **GitHub MCP Server**: The skill requires the GitHub MCP Server with the `dependabot` toolset enabled.
+1. **GitHub MCP Server**: The skill requires the GitHub MCP Server with the `dependabot` toolset enabled. This repository includes a default [.mcp.json](./../../.mcp.json) configured for the GitHub MCP Server, allowing the skill to communicate with it out of the box.
 
    Configure in your MCP settings:
    ```json
