@@ -210,6 +210,26 @@
         "developer"
       ],
       "license": "MIT"
+    },
+    {
+      "name": "cpp-language-server",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/cpp-language-server",
+        "path": "plugins/cpp-language-server"
+      },
+      "description": "Navigate and interact with your C++ code using the Microsoft C++ Language Server.",
+      "version": "0.1.0",
+      "repository": "https://github.com/microsoft/cpp-language-server",
+      "keywords": [
+        "cpp",
+        "c++",
+        "refactoring",
+        "code-analysis",
+        "lsp",
+        "language-server"
+      ],
+      "license": "See EULA/LICENSE.txt in @microsoft/cpp-language-server NPM package"
     }
   ]
 }
