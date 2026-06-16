@@ -19,6 +19,8 @@ This marketplace also references plugins hosted in other repositories:
 
 - **[Microsoft Skills for Fabric](https://github.com/microsoft/skills-for-fabric)** — `fabric-skills`, `fabric-authoring`, `fabric-consumption`, `fabric-operations`, `powerbi-authoring`. Skills and agents for Microsoft Fabric (Lakehouse, Warehouse, Power BI, Eventhouse, Eventstream, Dataflows, Spark).
 
+- **[Microsoft C++ Language Server](https://github.com/microsoft/cpp-language-server) - Navigate and interact with your C++ code.
+
 ## 🤝 Contributing
 
 We'd love your contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to submit pull requests.
