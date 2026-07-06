@@ -230,6 +230,183 @@
         "language-server"
       ],
       "license": "See EULA/LICENSE.txt in @microsoft/cpp-language-server NPM package"
+    },
+    {
+      "name": "power-pages",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/power-pages"
+      },
+      "description": "Create and deploy Power Pages sites using modern development approaches. Supports code sites (SPAs) with React, Angular, Vue, or Astro. Includes ALM orchestration (plan-alm) with a solution-splitting decision tree, per-solution pipelines, Azure Blob asset advisory, manifest schema v2 for multi-solution deployments, and force-link remediation for cross-host pipeline migrations.",
+      "version": "2.6.0",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "repository": "https://github.com/microsoft/power-platform-skills",
+      "keywords": [
+        "power-pages",
+        "site-builder",
+        "code-sites",
+        "spa",
+        "react",
+        "angular",
+        "vue",
+        "astro",
+        "pac-cli",
+        "dataverse",
+        "odata",
+        "web-api",
+        "tables",
+        "schema",
+        "solution",
+        "alm",
+        "plan-alm",
+        "ci-cd",
+        "pipeline",
+        "pipelines-host",
+        "force-link",
+        "diagnostics",
+        "shared-lib",
+        "solution-splitting",
+        "asset-advisory"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "model-apps",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/model-apps"
+      },
+      "description": "Build and deploy Power Apps generative pages for model-driven apps with specialist agents for planning, entity creation, and parallel code generation. Requires PAC CLI >= 2.7.0 and Azure CLI (`az`). See CHANGELOG.md for v1.x -> v2.x migration.",
+      "version": "2.2.0",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "repository": "https://github.com/microsoft/power-platform-skills",
+      "keywords": [
+        "model-apps",
+        "generative-pages",
+        "genux",
+        "genpage",
+        "react",
+        "fluent-ui",
+        "dataverse",
+        "pac-cli",
+        "model-driven"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "mcp-apps",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/mcp-apps"
+      },
+      "description": "Generate MCP App widgets for MCP tools. Produces self-contained HTML widgets using the MCP Apps protocol.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "repository": "https://github.com/microsoft/power-platform-skills",
+      "keywords": [
+        "mcp-apps",
+        "mcp",
+        "widget",
+        "ext-apps",
+        "fluent-ui",
+        "html",
+        "tool-visualization"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "canvas-apps",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/canvas-apps"
+      },
+      "description": "Build Power Apps Canvas Apps using the Canvas Authoring MCP server.",
+      "version": "2.1.0",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "repository": "https://github.com/microsoft/power-platform-skills",
+      "keywords": [
+        "canvas-apps",
+        "power-apps",
+        "canvas",
+        "pa-yaml",
+        "msapp"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "code-apps-preview",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/code-apps"
+      },
+      "description": "Build and deploy Power Apps code apps using React, Vite, and Power Platform connectors.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "repository": "https://github.com/microsoft/power-platform-skills",
+      "keywords": [
+        "power-apps",
+        "code-apps",
+        "react",
+        "vite",
+        "dataverse",
+        "connectors",
+        "pac-cli",
+        "power-platform"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "mobile-app",
+      "source": {
+        "source": "github",
+        "repo": "microsoft/power-platform-skills",
+        "path": "plugins/mobile-apps"
+      },
+      "description": "Build and deploy Power Apps code apps for mobile using Expo (React Native), with native device functionality and Power Platform connectors",
+      "version": "0.1.0",
+      "author": {
+        "name": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      "homepage": "https://github.com/microsoft/power-platform-skills/",
+      "repository": "https://github.com/microsoft/power-platform-skills",
+      "keywords": [
+        "power platform",
+        "power apps",
+        "code apps",
+        "mobile",
+        "expo",
+        "react native",
+        "native",
+        "connectors",
+        "microsoft"
+      ],
+      "license": "MIT"
     }
   ]
 }

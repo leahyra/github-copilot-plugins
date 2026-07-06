@@ -21,6 +21,8 @@ This marketplace also references plugins hosted in other repositories:
 
 - **[Microsoft C++ Language Server](https://github.com/microsoft/cpp-language-server)** — Navigate and interact with your C++ code.
 
+- **[Power Platform Skills](https://github.com/microsoft/power-platform-skills)** — `power-pages`, `model-apps`, `mcp-apps`, `canvas-apps`, `code-apps-preview`, `mobile-app`. Plugins for Power Platform development (Power Pages sites, model-driven and canvas apps, code apps, MCP App widgets, and mobile apps).
+
 ## 🤝 Contributing
 
 We'd love your contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to submit pull requests.
