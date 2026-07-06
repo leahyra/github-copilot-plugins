@@ -219,7 +219,7 @@
         "path": "plugins/cpp-language-server"
       },
       "description": "Navigate and interact with your C++ code using the Microsoft C++ Language Server.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "repository": "https://github.com/microsoft/cpp-language-server",
       "keywords": [
         "cpp",
